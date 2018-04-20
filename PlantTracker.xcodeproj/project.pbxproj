@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2209FA820866AA000675D2B /* PlantCharacteristicsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2209FA720866AA000675D2B /* PlantCharacteristicsControl.swift */; };
 		C225D4392085ED1F00507C65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225D4382085ED1F00507C65 /* AppDelegate.swift */; };
-		C225D43B2085ED1F00507C65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225D43A2085ED1F00507C65 /* ViewController.swift */; };
+		C225D43B2085ED1F00507C65 /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225D43A2085ED1F00507C65 /* PlantViewController.swift */; };
 		C225D43E2085ED1F00507C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C225D43C2085ED1F00507C65 /* Main.storyboard */; };
 		C225D4402085ED2900507C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C225D43F2085ED2900507C65 /* Assets.xcassets */; };
 		C225D4432085ED2900507C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C225D4412085ED2900507C65 /* LaunchScreen.storyboard */; };
 		C225D44E2085ED2900507C65 /* PlantTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225D44D2085ED2900507C65 /* PlantTrackerTests.swift */; };
+		C2FD6A022088FFD50055ADBB /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD6A012088FFD50055ADBB /* Plant.swift */; };
+		C2FD6A042089031D0055ADBB /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD6A032089031D0055ADBB /* PlantTableViewCell.swift */; };
+		C2FD6A06208908F10055ADBB /* PlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD6A05208908F10055ADBB /* PlantTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2209FA720866AA000675D2B /* PlantCharacteristicsControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCharacteristicsControl.swift; sourceTree = "<group>"; };
 		C225D4352085ED1F00507C65 /* PlantTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C225D4382085ED1F00507C65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C225D43A2085ED1F00507C65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C225D43A2085ED1F00507C65 /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
 		C225D43D2085ED1F00507C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C225D43F2085ED2900507C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C225D4422085ED2900507C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		C225D4492085ED2900507C65 /* PlantTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C225D44D2085ED2900507C65 /* PlantTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTrackerTests.swift; sourceTree = "<group>"; };
 		C225D44F2085ED2900507C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FD6A012088FFD50055ADBB /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		C2FD6A032089031D0055ADBB /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
+		C2FD6A05208908F10055ADBB /* PlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				C225D4382085ED1F00507C65 /* AppDelegate.swift */,
-				C225D43A2085ED1F00507C65 /* ViewController.swift */,
+				C225D43A2085ED1F00507C65 /* PlantViewController.swift */,
+				C2FD6A012088FFD50055ADBB /* Plant.swift */,
+				C2209FA720866AA000675D2B /* PlantCharacteristicsControl.swift */,
+				C2FD6A032089031D0055ADBB /* PlantTableViewCell.swift */,
+				C2FD6A05208908F10055ADBB /* PlantTableViewController.swift */,
 				C225D43C2085ED1F00507C65 /* Main.storyboard */,
 				C225D43F2085ED2900507C65 /* Assets.xcassets */,
 				C225D4412085ED2900507C65 /* LaunchScreen.storyboard */,
@@ -197,8 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C225D43B2085ED1F00507C65 /* ViewController.swift in Sources */,
+				C225D43B2085ED1F00507C65 /* PlantViewController.swift in Sources */,
+				C2FD6A042089031D0055ADBB /* PlantTableViewCell.swift in Sources */,
+				C2FD6A022088FFD50055ADBB /* Plant.swift in Sources */,
+				C2209FA820866AA000675D2B /* PlantCharacteristicsControl.swift in Sources */,
 				C225D4392085ED1F00507C65 /* AppDelegate.swift in Sources */,
+				C2FD6A06208908F10055ADBB /* PlantTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
